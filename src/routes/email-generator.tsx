@@ -22,7 +22,7 @@ export const Route = createFileRoute("/email-generator")({
       },
     ],
   }),
-  component: EmailGenerator;
+  component: EmailGenerator,
 });
 
 function EmailGenerator() {
